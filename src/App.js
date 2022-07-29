@@ -90,63 +90,6 @@ const App = () => {
       </TouchableOpacity>
     )
 
-    /*if (item.stateOfBeingDone) {
-
-      return (
-        <TouchableOpacity onLongPress={() => {
-          todoList.splice(index, 1);
-          getTodoList();
-          getTodoCount();
-        }} onPress={() => {
-          todoList[index].stateOfBeingDone = !item.stateOfBeingDone
-          getTodoList();
-          getTodoCount();
-        }}
-          style={{
-            width: '100%',
-            backgroundColor: "#485460",
-            padding: 10,
-            borderRadius: 10,
-            marginBottom: 10
-          }}>
-          <Text style={{
-            width: '100%',
-            color: "#aaa",
-            textDecorationLine: 'line-through'
-          }}>
-            {item.todoText}
-          </Text>
-        </TouchableOpacity>
-      )
-
-    } else {
-      return (
-        <TouchableOpacity onLongPress={() => {
-          todoList.splice(index, 1);
-          getTodoList();
-          getTodoCount();
-        }} onPress={() => {
-          todoList[index].stateOfBeingDone = !item.stateOfBeingDone
-          getTodoList();
-          getTodoCount();
-        }}
-          style={{
-            width: '100%',
-            backgroundColor: '#7DA453',
-            padding: 10,
-            borderRadius: 10,
-            marginBottom: 10
-          }}>
-          <Text style={{
-            width: '100%',
-            color: Colors.white
-          }}>
-            {item.todoText}
-          </Text>
-        </TouchableOpacity>
-      )
-    }*/
-
   }
 
   useEffect(() => {
